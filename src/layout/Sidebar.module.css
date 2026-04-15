@@ -1,0 +1,45 @@
+.sidebar {
+  min-height: calc(100vh - 60px);
+  background-color: #d4eadd;
+  padding: 1rem;
+}
+
+.navLink {
+  color: #555555;
+  transition: all 0.2s ease;
+}
+
+.navLink:hover {
+  background-color: rgba(46, 137, 135, 0.1);
+  color: #2e8987;
+  text-decoration: none;
+}
+
+.navLink:visited {
+  color: #555555;
+}
+
+.navLink:focus,
+.navLink:focus-visible {
+  color: #2e8987;
+}
+
+.active {
+  background-color: #2e8987;
+  color: white;
+}
+
+.active:hover {
+  background-color: #2e8987;
+  color: white;
+  text-decoration: none;
+}
+
+.active:visited {
+  color: white;
+}
+
+.active:focus,
+.active:focus-visible {
+  color: white;
+}

@@ -1,0 +1,127 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Barlow", sans-serif;
+  background-color: #f4f9fc;
+  color: #1a1a1a;
+  line-height: 1.6;
+}
+
+.btn {
+  border-radius: 8px;
+  font-family: "Barlow", sans-serif;
+  font-weight: 500;
+  transition: all 0.2s ease;
+}
+
+.btn:hover {
+  transform: translateY(-1px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.btn-primary {
+  --bs-btn-color: #fff;
+  --bs-btn-bg: #2e8987;
+  --bs-btn-border-color: #2e8987;
+  --bs-btn-hover-color: #fff;
+  --bs-btn-hover-bg: #236e6c;
+  --bs-btn-hover-border-color: #236e6c;
+  --bs-btn-active-color: #fff;
+  --bs-btn-active-bg: #1d5c5a;
+  --bs-btn-active-border-color: #1d5c5a;
+  --bs-btn-disabled-color: #fff;
+  --bs-btn-disabled-bg: #2e8987;
+  --bs-btn-disabled-border-color: #2e8987;
+  --bs-btn-focus-shadow-rgb: 46, 137, 135;
+}
+
+.btn-outline-primary {
+  --bs-btn-color: #2e8987;
+  --bs-btn-border-color: #2e8987;
+  --bs-btn-hover-color: #fff;
+  --bs-btn-hover-bg: #2e8987;
+  --bs-btn-hover-border-color: #2e8987;
+  --bs-btn-active-color: #fff;
+  --bs-btn-active-bg: #1d5c5a;
+  --bs-btn-active-border-color: #1d5c5a;
+  --bs-btn-focus-shadow-rgb: 46, 137, 135;
+}
+
+.card {
+  border-radius: 8px;
+  border: none;
+}
+
+.form-control,
+.form-select {
+  border-radius: 8px;
+  border: 1px solid #dee2e6;
+  padding: 0.625rem 0.75rem;
+  transition: all 0.2s ease;
+}
+
+.form-control:focus,
+.form-select:focus {
+  border-color: #2e8987;
+  box-shadow: 0 0 0 0.2rem rgba(46, 137, 135, 0.25);
+}
+
+.table {
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+.badge {
+  border-radius: 6px;
+  font-weight: 500;
+  font-family: "Barlow", sans-serif;
+}
+
+.alert {
+  border-radius: 8px;
+  border: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Barlow", sans-serif;
+  font-weight: 600;
+  line-height: 1.4;
+}
+
+h1 {
+  color: #2e8987;
+}
+
+h2 {
+  color: #1a1a1a;
+}
+
+.text-muted {
+  color: #555555 !important;
+}
+
+.bg-white {
+  background-color: white;
+}
+
+.bg-secondary {
+  background-color: #d4eadd !important;
+}

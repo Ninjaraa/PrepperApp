@@ -1,0 +1,29 @@
+.appContainer {
+  min-height: 100vh;
+  background-color: #f4f9fc;
+}
+
+.mainContent {
+  display: flex;
+  min-height: calc(100vh - 60px);
+}
+
+.content {
+  flex: 1;
+  padding: 2rem;
+  overflow-y: auto;
+}
+
+@media (max-width: 768px) {
+  .mainContent {
+    flex-direction: column;
+  }
+
+  .content {
+    padding: 1rem;
+  }
+
+  main {
+    min-height: auto;
+  }
+}

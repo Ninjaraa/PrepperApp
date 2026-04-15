@@ -1,0 +1,23 @@
+.suggestions {
+  color: #1a1a1a;
+}
+
+.categoryHeader {
+  background-color: white;
+  border-bottom: 1px solid #dee2e6;
+  transition: background-color 0.2s ease;
+}
+
+.categoryHeader:hover {
+  background-color: #f8f9fa;
+}
+
+.categoryBody {
+  padding: 1.5rem;
+}
+
+.quantity {
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: #2e8987;
+}
